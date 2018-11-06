@@ -10,10 +10,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-```
+#### Environment
+
 Library: libsvm-3.0.2
 Programming language: C++
-```
+
+#### Data
+
+cyc2008.data - downloaded from [cyc2008](http://wodaklab.org/cyc2008/)
+pro200600448_3_s.csv - downloaded from [WI-PHI](http://www.wiley-vch.de/contents/jc_2120/2007/pro200600448_s.html)
+uniprot_sprot_fungi.dat - downloaded from [UniProtKB](https://www.uniprot.org/uniprot/)
 
 ### Usage
 
