@@ -24,7 +24,10 @@ What things you need to install the software and how to install them
 ### Usage
 
 ```
-./svm-train 
+g++ pairwise-kernel.cpp -o dimer
+./dimer 1 2 3 4 5 8 9 a filename1.txt filename2.txt
+./svm-train -q -t 4 -v 10 -w1 b -w-1 c filename2.txt
 ```
-
-## Authors
+a: 
+b: weight of positive examples
+c: weight of negative examples
